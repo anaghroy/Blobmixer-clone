@@ -365,7 +365,7 @@ const textMaterial = new THREE.ShaderMaterial({
 const getTextSize = () => {
   if (window.innerWidth <= MOBILE_BREAKPOINT) return window.innerWidth / 3000;
   if (window.innerWidth <= TABLET_BREAKPOINT) return window.innerWidth / 5000;
-  return window.innerWidth / 2000;
+  return window.innerWidth / 4000;
 };
 
 // Create text meshes for each blob
